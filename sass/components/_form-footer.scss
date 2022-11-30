@@ -1,0 +1,36 @@
+.form-title-footer {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    color: var(--background-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.form-footer-label {
+    display: flex;
+}
+
+.form-footer-input {
+    margin-right: 10px;
+    width: 358px;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 16px;
+    caret-color: var(--background-color);
+    color: var(--background-color);
+}
+
+.form-footer-input> ::placeholder {
+    font-size: 16px;
+    line-height: calc(20 / 16);
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
